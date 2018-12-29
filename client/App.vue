@@ -19,7 +19,7 @@
     </ul>
 
     <Title secondary>{{ msg }}</Title>
-    <Date> {{ date }} </Date>
+    <date> {{ date }} </date>
     <ul>
       <li v-for="item in analytics">
         <analytics :post="item"></analytics>
@@ -48,7 +48,8 @@ export default {
   },
   components: {
     Title,
-    analytics: Analytics
+    analytics: Analytics,
+    date: Date
   }
 }
 </script>
