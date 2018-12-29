@@ -27,7 +27,7 @@ $colorPrimary: #979797;
 
   &:before {
     display: inline-block;
-    content: " asasd";
+    content: " ";
     height: 4px;
     width: 4px;
     background-color: #E74C3C;
